@@ -1,3 +1,4 @@
+
 # 중복순열 라이브러리 이용
 # from itertools import product
 
@@ -5,7 +6,7 @@
 
 # nums = [i for i in range(1, n+1)] # 1부터 n까지 숫자들
 
-# arr = list(product(nums, nums))
+# arr = list(product(nums, repeat=m)) # m개씩 뽑기
 
 # for i in arr:
 #     print(" ".join(map(str, i)))
